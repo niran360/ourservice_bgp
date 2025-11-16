@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Redeemed Christian Church of God - Service Times</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a2a6c 0%, #2a3a7c 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: #333;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .church-logo {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #1a2a6c, #2a3a7c);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 3rem;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+        
+        h1 {
+            color: #1a2a6c;
+            margin-bottom: 10px;
+            font-size: 2.2rem;
+        }
+        
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+        
+        .service-schedule {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 20px 0;
+            text-align: left;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+        
+        .service-schedule h2 {
+            color: #1a2a6c;
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 1.8rem;
+            border-bottom: 2px solid #1a2a6c;
+            padding-bottom: 10px;
+        }
+        
+        .service-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        .service-item:last-child {
+            border-bottom: none;
+        }
+        
+        .service-name {
+            font-weight: 600;
+            color: #333;
+            font-size: 1.1rem;
+        }
+        
+        .service-time {
+            background: #1a2a6c;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+        
+        .service-day {
+            color: #666;
+            font-size: 0.9rem;
+            margin-top: 5px;
+        }
+        
+        .special-service {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+            color: white;
+            padding: 12px;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+        
+        .special-service .service-time {
+            background: rgba(255,255,255,0.2);
+        }
+        
+        .welcome-message {
+            background: linear-gradient(135deg, #1a2a6c, #2a3a7c);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .welcome-message h3 {
+            margin-bottom: 10px;
+            font-size: 1.4rem;
+        }
+        
+        .footer {
+            margin-top: 30px;
+            color: white;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .church-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .social-media {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 15px;
+        }
+        
+        .social-icon {
+            color: white;
+            font-size: 1.8rem;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        
+        .social-icon:hover {
+            transform: translateY(-3px);
+        }
+        
+        .facebook:hover {
+            color: #1877f2;
+        }
+        
+        .instagram:hover {
+            color: #e4405f;
+        }
+        
+        .youtube:hover {
+            color: #ff0000;
+        }
+        
+        .copyright {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        
+        .contact-info {
+            margin-top: 15px;
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="church-logo">
+            
+            <img src="bgp.png" alt="RCCG Logo" style="width: 100%; height: 100%; border-radius: 50%;">
+            
+        </div>
+        
+        <h1>Welcome to RCCG BGP LP77 HQ</h1>
+        <!-- <p class="subtitle">The Redeemed Christian Church of God</p> -->
+        
+        <div class="welcome-message">
+            <h3>👋 We're Glad You're Here!</h3>
+            <p>Join us for worship and fellowship. All are welcome!</p>
+        </div>
+        
+        <div class="service-schedule">
+            <h2>Our Service Schedule</h2>
+            
+            <div class="service-item">
+                <div>
+                    <div class="service-name">Bible Study Digging Deep</div>
+                    <div class="service-day">Every Tuesday</div>
+                </div>
+                <div class="service-time">6:30 PM</div>
+            </div>
+            
+            <div class="service-item">
+                <div>
+                    <div class="service-name">Hour of Mercy</div>
+                    <div class="service-day">Every Wednesday</div>
+                </div>
+                <div class="service-time">6:15 AM - 7:15 AM</div>
+            </div>
+            
+            <div class="service-item">
+                <div>
+                    <div class="service-name">Faith Clinic</div>
+                    <div class="service-day">Every Thursday</div>
+                </div>
+                <div class="service-time">6:30 PM</div>
+            </div>
+            
+            <div class="service-item">
+                <div>
+                    <div class="service-name">Sunday Service (First Service)</div>
+                    <div class="service-day">Every Sunday</div>
+                </div>
+                <div class="service-time">7:30 AM</div>
+            </div>
+            
+            <div class="service-item">
+                <div>
+                    <div class="service-name">Sunday Service (Second Service)</div>
+                    <div class="service-day">Every Sunday</div>
+                </div>
+                <div class="service-time">9:00 AM</div>
+            </div>
+            
+            <div class="service-item special-service">
+                <div>
+                    <div class="service-name">Lift Up Your Heads</div>
+                    <div class="service-day">First Day of Every Month</div>
+                </div>
+                <div class="service-time">6:15 AM - 7:15 AM</div>
+            </div>
+        </div>
+        
+        <div class="welcome-message">
+            <h3>📍 Visit Us</h3>
+            <p>Praise Hill Estate, Plot 1-2 Abiola Bolaji Street Arepo 121101, Ogun State</p>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="church-name">
+            The Redeemed Christian Church of God
+        </div>
+        
+        <div class="contact-info">
+            <p>Email: rccglp77hq@gmail.com | Phone: (070) 319-92641</p>
+        </div>
+        
+        <div class="social-media">
+            <!-- REPLACE # WITH ACTUAL SOCIAL MEDIA LINKS -->
+            <a href="https://facebook.com/rccgbg" class="social-icon facebook" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://instagram.com/rccgbg" class="social-icon instagram" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://youtube.com/@rccglp77" class="social-icon youtube" target="_blank">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+        
+        <div class="copyright">
+            &copy; 2025 The Redeemed Christian Church of God. All Rights Reserved.
+        </div>
+    </div>
+
+    <script>
+        // Simple animation for service items
+        document.addEventListener('DOMContentLoaded', function() {
+            const serviceItems = document.querySelectorAll('.service-item');
+            serviceItems.forEach((item, index) => {
+                item.style.opacity = '0';
+                item.style.transform = 'translateY(20px)';
+                item.style.transition = 'all 0.5s ease';
+                
+                setTimeout(() => {
+                    item.style.opacity = '1';
+                    item.style.transform = 'translateY(0)';
+                }, 100 * index);
+            });
+        });
+    </script>
+</body>
+</html>
